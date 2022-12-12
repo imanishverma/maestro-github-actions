@@ -1,6 +1,0 @@
-appId: dev.mobile.maestro_demo
---
-- launchApp
-- assertVisible: "Hello first fragment"
-- tapOn: "Next"
-- tapOn: "PREVIOUS"
