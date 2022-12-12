@@ -24,6 +24,7 @@ jobs:
         run: ./gradlew build
   upload-to-mobile-dev:
     name: Run Flows on Maestro Cloud
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
         with:
