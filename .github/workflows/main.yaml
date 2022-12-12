@@ -7,7 +7,7 @@ on:
     branches: [ main ]
 
 jobs:
-  build:
+  maestro-cloud:
     runs-on: ubuntu-latest
     outputs:
       app: app/build/outputs/apk/debug
